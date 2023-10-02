@@ -1,0 +1,19 @@
+{
+  "name": "administrador-estacionamiento",
+  "version": "1.0.0",
+  "description": "web de manejo de estacionamiento.",
+  "main": "index.js",
+  "scripts": {
+    "test": "start"
+  },
+  "keywords": [
+    "1999"
+  ],
+  "author": "Rodrigo F.A",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "cookie-parser": "^1.4.6",
+    "express": "^4.18.2"
+  }
+}

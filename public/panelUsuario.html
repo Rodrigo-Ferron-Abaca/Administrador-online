@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/panelUsuario.css">
+    <title>Panel de Usuario</title>
+</head>
+<body>
+    <nav class="nav">
+        <ul>
+            <li><a href="index.html">Index</a></li>
+        </ul>
+      </nav>
+    <div class="order">
+    <div class="main">
+    <div class="container-E">
+        <h1>Panel de Usuario</h1>
+
+    <!-- Formulario para crear estacionamientos -->
+        <h2>Crear Estacionamiento</h2>
+    <form class="form" id="crearEstacionamientoForm" action='/guardarEstacionamiento' method="post">
+        <input type="text" id="nombreEstacionamiento" placeholder="Nombre del estacionamiento" required>
+        <br>
+        <input type="number" id="tamañoEstacionamiento" placeholder="Tamaño del estacionamiento" required>
+        <br>
+        <input type="submit" value="Crear">
+    </form>
+
+    </div>
+
+    <div class="container-E">
+    <!-- Lista de estacionamientos del usuario -->
+    <h2>Selecciona tu estacionamiento</h2>
+    <ul class="ul" id="listaEstacionamientos"></ul>
+    </div>
+
+    <div class="container-E">
+        <h2>Administrador de estacionamiento</h2>
+    <!-- Formulario para agregar elementos al array -->
+    <form class="form" id="arrayForm">
+        <input type="text" id="patente" placeholder="Patente">
+        <br>
+        <input type="text" id="dueño" placeholder="Dueño">
+        <br>
+        <input type="text" id="telefono" placeholder="Teléfono">
+        <br>
+        <input type="number" id="posicion" placeholder="Posición">
+        <br>
+        <input type="submit" id="agregarElemento" value="Agregar">
+    </form>
+
+    <form class="form" id="vaciarEspacioForm">
+        <input type="number" id="posicionVacia" placeholder="Posición a vaciar">
+        <br>
+        <input type="submit" value="Vaciar Espacio">
+    </form>
+    </div>
+    </div>
+
+    <div class="main2">
+    
+        <div class="container-Es">
+            <h2>Estacionamiento Seleccionado</h2>
+        </div>
+            <!-- Mostrar elementos del array -->
+        <ul class="interfazV" id="elementosArray"></ul>
+    
+    </div>
+
+    </div>
+    <script src="panelUsuario.js"></script>
+    </body>
+</html>
+
+

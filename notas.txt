@@ -1,0 +1,81 @@
+Archivo en español 🇪🇸
+
+Este código es una aplicación web que gestiona estacionamientos para usuarios autenticados. Aquí tienes un resumen:
+
+panelUsuario.js:
+
+Verifica la autenticación del usuario utilizando un token almacenado en las cookies.
+Si el usuario no está autenticado, muestra una alerta.
+Si está autenticado, crea eventos para formularios, realiza solicitudes al servidor para guardar estacionamientos y muestra elementos de arrays.
+index.js:
+
+Configura un servidor Express con rutas y middleware.
+Utiliza cookie-parser para manejar cookies.
+Implementa un middleware de autenticación para asociar un usuario con el token de autenticación.
+Ofrece rutas para el registro, inicio de sesión, guardar estacionamientos y mostrar estacionamientos.
+Maneja solicitudes POST para registrar usuarios, iniciar sesión y guardar estacionamientos.
+Tecnologías y APIs utilizadas:
+
+Tecnologías:
+
+Frontend (panelUsuario.js):
+HTML, CSS, JavaScript
+Uso de Fetch API para realizar solicitudes al servidor.
+Backend (index.js):
+Node.js con Express para el servidor web.
+body-parser para analizar datos del cuerpo de las solicitudes.
+cookie-parser para manejar cookies.
+Comunicación Cliente-Servidor:
+Utilización de solicitudes HTTP para la comunicación entre el frontend y el backend.
+APIs:
+
+Express.js API:
+Utilizada para configurar el servidor web y definir rutas.
+Fetch API:
+Empleada en el frontend para realizar solicitudes HTTP asíncronas al servidor.
+Node.js HTTP Module:
+Utilizado para manejar las solicitudes HTTP en el servidor.
+Cookie-parser Middleware:
+Middleware de Express utilizado para analizar cookies en las solicitudes.
+Estas tecnologías y APIs son fundamentales para la creación de una aplicación web dinámica y la comunicación efectiva entre el cliente y el servidor.
+
+English Version 🇺🇸:
+
+This code is a web application that manages parking lots for authenticated users. Here's a summary:
+
+panelUsuario.js:
+
+Verifies user authentication using a token stored in cookies.
+If the user is not authenticated, displays an alert.
+If authenticated, sets up events for forms, makes requests to the server to save parking lots, and displays array elements.
+index.js:
+
+Configures an Express server with routes and middleware.
+Uses cookie-parser to handle cookies.
+Implements an authentication middleware to associate a user with the authentication token.
+Provides routes for registration, login, saving parking lots, and showing parking lots.
+Handles POST requests to register users, log in, and save parking lots.
+Technologies and APIs Used:
+
+Technologies:
+
+Frontend (panelUsuario.js):
+HTML, CSS, JavaScript
+Uses Fetch API to make asynchronous requests to the server.
+Backend (index.js):
+Node.js with Express for the web server.
+body-parser to parse request body data.
+cookie-parser to handle cookies.
+Client-Server Communication:
+Uses HTTP requests for communication between the frontend and backend.
+APIs:
+
+Express.js API:
+Used to set up the web server and define routes.
+Fetch API:
+Employed in the frontend to make asynchronous HTTP requests to the server.
+Node.js HTTP Module:
+Used to handle HTTP requests on the server.
+Cookie-parser Middleware:
+Express middleware used to parse cookies in requests.
+These technologies and APIs are crucial for building a dynamic web application and ensuring effective communication between the client and server.
